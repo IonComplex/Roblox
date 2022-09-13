@@ -11,7 +11,7 @@ These scripts should be used along with the following YouTube videos:
 |--SFetchScript
 
 **ServerStorage**  
-|--ModuleScripts(Folder)
+|--ModuleScripts(Folder)  
 ----|----DisplayManager  
 ----|----GameSetings  
 ----|----MatchManager  
