@@ -1,17 +1,16 @@
-Falling Blocks - Basic Edition
+# Falling Blocks - Basic Edition
 
 These scripts should be used along with the following YouTube videos:
 
+**Script Locations (As described in the video):
 
-Script Locations (As described in the video):
-
-FallingBlock(PART)
+**FallingBlock(PART)**
 |--FetchScript
 
-StartingBlock(PART)
+**StartingBlock(PART)**
 |--SFetchScript
 
-ServerStorage
+**ServerStorage**
 |--ModuleScripts
     |--DisplayManager
     |--GameSetings
@@ -19,9 +18,9 @@ ServerStorage
     |--PlayerManager
     |--Timer
 
-ServerScriptService
+**ServerScriptService**
 |--GameManager
 
-ReplicatedStorage
+**ReplicatedStorage**
 |--FallingBlockScript
 |--StartingBlockScript
