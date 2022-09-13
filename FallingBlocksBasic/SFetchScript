@@ -1,0 +1,4 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local StartingScript = ReplicatedStorage.StartingBlockScript:Clone()
+StartingScript.Parent = script.Parent
