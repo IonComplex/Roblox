@@ -11,12 +11,12 @@ These scripts should be used along with the following YouTube videos:
 |--SFetchScript
 
 **ServerStorage**  
-|--ModuleScripts  
-    |--DisplayManager  
-    |--GameSetings  
-    |--MatchManager  
-    |--PlayerManager  
-    |--Timer  
+|--ModuleScripts(Folder)
+----|----DisplayManager  
+----|----GameSetings  
+----|----MatchManager  
+----|----PlayerManager  
+----|----Timer  
 
 **ServerScriptService**  
 |--GameManager  
