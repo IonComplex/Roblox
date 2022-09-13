@@ -1,0 +1,25 @@
+local floorPiece = script.Parent
+
+local touched = 0
+
+
+local function beginFade()
+
+	if touched == 0 then
+		print("block touched")
+		touched = 1
+		floorPiece.Color = Color3.fromRGB(222, 0, 0)
+
+		while floorPiece.Transparency < 1 do
+			floorPiece.Transparency += .1
+			wait(1)
+		end
+
+		floorPiece:Destroy()
+
+	end
+
+end
+
+
+floorPiece.Touched:Connect(beginFade)
