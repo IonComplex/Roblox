@@ -4,23 +4,23 @@ These scripts should be used along with the following YouTube videos:
 
 **Script Locations (As described in the video):
 
-**FallingBlock(PART)**
+**FallingBlock(PART)**  
 |--FetchScript
 
-**StartingBlock(PART)**
+**StartingBlock(PART)**  
 |--SFetchScript
 
-**ServerStorage**
-|--ModuleScripts
-    |--DisplayManager
-    |--GameSetings
-    |--MatchManager
-    |--PlayerManager
-    |--Timer
+**ServerStorage**  
+|--ModuleScripts  
+    |--DisplayManager  
+    |--GameSetings  
+    |--MatchManager  
+    |--PlayerManager  
+    |--Timer  
 
-**ServerScriptService**
-|--GameManager
+**ServerScriptService**  
+|--GameManager  
 
-**ReplicatedStorage**
-|--FallingBlockScript
-|--StartingBlockScript
+**ReplicatedStorage**  
+|--FallingBlockScript  
+|--StartingBlockScript  
