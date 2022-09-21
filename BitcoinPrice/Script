@@ -1,0 +1,25 @@
+local HttpService = game:GetService("HttpService")
+
+local ConnectURL = "https://api.coindesk.com/v1/bpi/currentprice.json"
+
+local response = HttpService:GetAsync(ConnectURL)
+
+local dataHolder = HttpService:JSONDecode(response)
+
+
+local CoinName = workspace.CoinBox.SurfaceGui.TextLabel
+local Price = workspace.Price.SurfaceGui.TextLabel
+local UpdateDate = workspace.UpdateDate.SurfaceGui.TextLabel
+
+
+
+print(dataHolder.chartName)
+
+print(dataHolder.time.updated)
+
+print(dataHolder.bpi.USD.rate)
+
+CoinName.Text = dataHolder.chartName
+Price.Text = dataHolder.bpi.USD.rate
+UpdateDate.Text = dataHolder.time.updated
+
